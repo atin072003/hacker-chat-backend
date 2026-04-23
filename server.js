@@ -14,7 +14,7 @@ import { setupSocketHandlers } from './src/sockets/index.js';
 dotenv.config();
 
 const app = express();
-const httpServer = createServer(app);git 
+const httpServer = createServer(app);
 
 // Socket.io with robust CORS and fallback transports
 const io = new Server(httpServer, {
