@@ -4,7 +4,8 @@
   "type": "module",
   "scripts": {
     "dev": "nodemon server.js",
-    "start": "node server.js"
+    "start": "node server.js",
+    "postinstall": "npm rebuild bcrypt --update-binary"
   },
   "dependencies": {
     "bcrypt": "^5.1.1",
